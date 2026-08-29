@@ -1,0 +1,34 @@
+# Compiled classes
+*.class
+
+# Maven
+target/
+*.jar
+*.war
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Test reports
+test-output/
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Build directories
+build/
+dist/

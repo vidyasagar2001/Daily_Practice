@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST Assured SDET Tests">
+    <test name="Basic GET Tests">
+        <classes>
+            <class name="com.restassured.sdet.basics.BasicGetTest"/>
+        </classes>
+    </test>
+    
+    <test name="CRUD Operations Tests">
+        <classes>
+            <class name="com.restassured.sdet.crud.CrudOperationsTest"/>
+        </classes>
+    </test>
+</suite>
